@@ -21,12 +21,13 @@ The convolution of two functions is defined as ([see Wikipedia](https://en.wikip
 ![Convolution Formula](Screenshot_2021-04-16_Convolution-Wikipedia.png)
 
 You might now wonder about what exactly is going on here.  
-First, take a look at the integration variable. It's tau: 
+First, take a look at the integration variable. It's tau:  
 ![Convolution Formula, Integration Variable highlighted](Screenshot_2021-04-16_Convolution-Wikipedia_dtau.png)  
 
 Now, do you remember how a function gets mirrored at the y-axis? By inverting its argument. That's what happens with the -tau.  
+We could re-write the formula as 
 
-
+![Re-Written Convolution Formula to highlight the process of mirroring at the y-axis](convolution_rewritten.png).
 
 # Pulse Shapes
 
