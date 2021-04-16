@@ -4,7 +4,7 @@ When looking at the code you might realize there's a similarity to the autocorre
 
 
 ## Preface
-So you're still having trouble remembering whether subtracting from the x-value shifts a function to the right or to the left? Consider the plot below:  
+So you're still having trouble remembering whether subtracting from the argument (x-value) shifts a function to the right or to the left? Consider the plot below:  
 ![Plot showing a function and it being shifted left/right](veranschaulichung_verschiebung_plusminus.png)
 
 **Subtracting shifts** to the **right**, **adding shifts** to the **left**.  
