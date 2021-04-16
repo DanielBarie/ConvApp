@@ -1,7 +1,11 @@
 # ConvApp
 Matlab Convolution Demo App.  
 When looking at the code you might realize there's a similarity to the autocorrelation / cross correlation demo app. :)  
+
 ![Convolution Demo App Main Screen](app_screen.png)
+
+You may move one of the functions (mirrored g(t)) by dragging the slider. 
+![Convolution Demo App Main Screen, Slider Marked](app_screen_slider.png)
 
 ## Preface
 So you're still having trouble remembering whether subtracting from the argument (x-value) shifts a function to the right or to the left? Consider the plot below:  
