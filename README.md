@@ -11,9 +11,12 @@ So you're still having trouble remembering whether subtracting from the argument
 Remembering this is important. Only with that in mind will you understand what is happing during convolution and how moving the slider moves the red signal (and why positive values of the slider move the signal to the right).
 
 Another one to remember is how a function gets mirrored at the y-axis:
-![Plot showing a function and it mirrored at the y-axis](veranschaulichung_spiegelung_yachse.png)
+![Plot showing a function and it being mirrored at the y-axis](veranschaulichung_spiegelung_yachse.png)
 
 The function will be **inverted if we invert the argument** ("x" -> "-x").
+
+Here comes the most interesting part: Combining these two. The top most plot in the figure below is the "regular" behaviour of a function when adding a positive offset to its argument. The middle plot is the function with its argument being inverted first and an additional positive offset. It is (still) mirrored at the y-axis. The plot at the bottom is the function with its argument having been inverted and a subtraction of an offset.
+![Plot showing a function and it being mirrored at the y-axis and shifted](veranschaulichung_spiegelung_verschiebung_plusminus.png)
 
 ## Convolution Formula
 
@@ -33,7 +36,7 @@ Another point that (hopefully) makes you curious: Why are there two variables, t
 ![Convolution of f and g](faltung_f_g.png)  
 Another way of putting this is asking the question "What's the value of the convolution function at a given time?" So we need another variable to do the intergration (tau). 
 
-Do you remember the effect of subtracting from the argument of a function? It will result in a 
+Do you remember the effect of subtracting from the inverted argument of a function? It will result in the mirrored function sliding from left to right. This is what you see when moving the slider from -5 to +5.
 
 # Pulse Shapes
 
