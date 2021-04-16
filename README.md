@@ -1,7 +1,14 @@
 # ConvApp
 Matlab Convolution Demo App.  
-When looking at the code you might realize there's a similarity to the autocorrelation / cross correlation Demo App. :)  
+When looking at the code you might realize there's a similarity to the autocorrelation / cross correlation demo app. :)  
 
+
+## Preface
+So you're still having trouble remembering whether subtracting from the x-value shifts a function to the right or to the left? Consider the plot below:  
+![Plot showing a function and it being shifted left/right](veranschaulichung_verschiebung_plusminus.png)
+
+Subtracting shifts to the right, adding shifts to the left.  
+Remembering this is important. Only with that in mind will you understand what is happing during convolution and how moving the slider moves the red signal (and why positive values of the slider move the signal to the right).
 
 # Pulse Shapes
 
