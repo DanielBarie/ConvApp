@@ -42,6 +42,11 @@ Putting this differently is asking the question "What's the value of the convolu
 
 Do you remember the effect of subtracting from the inverted argument of a function? It will result in the mirrored function sliding from left to right. This is what you see when moving the slider from -5 to +5.
 
+Still didn't quite arrive at that conclusion? Never mind... There's one more plot for you:  
+![Reflected and shifted function, bracketed](veranschaulichung_spiegelung_verschiebung_plusminus_klammerung.png)  
+Direct your attention to the legend of the subplots... I placed some brackets inside the functions' arguments. This highlights the order of operations: When subtracting from to the inverted argument we can also understand this in terms of adding to the non-inverted argument (shifts to the left) and mirroring/reflecting that shifted function at the y-axis.  
+
+
 # Pulse Shapes
 
 ## Rectangular Pulse #1
