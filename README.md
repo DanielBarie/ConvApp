@@ -17,6 +17,12 @@ frect_1 = rectangularPulse(-1,1,x);
 ftri_1 = triangularPulse(-1,0,1,x);
 ```
 
+## Triangular Pulse #2
+![Triangular Pulse #2](tripulse_2.png)
+```
+ftri_2 = triangularPulse(-2,0,0,x);
+```
+
 ##  Triangular Pulse #3
 ![Triangular Pulse #3](tripulse_3.png)
 
