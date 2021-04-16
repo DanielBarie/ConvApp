@@ -44,7 +44,7 @@ Do you remember the effect of subtracting from the inverted argument of a functi
 
 Still didn't quite arrive at that conclusion? Never mind... There's one more plot for you:  
 ![Reflected and shifted function, bracketed](veranschaulichung_spiegelung_verschiebung_plusminus_klammerung.png)  
-Direct your attention to the legend of the subplots... I placed some brackets inside the functions' arguments. This highlights the order of operations: When subtracting from to the inverted argument we can also understand this in terms of adding to the non-inverted argument (shifts to the left) and mirroring/reflecting that shifted function at the y-axis.  
+Direct your attention to the legend of the subplots... I placed some brackets inside the functions' arguments. This highlights the order of operations: When subtracting from to the inverted argument ( f(-x-1) ) we can also understand this in terms of adding to the non-inverted ( f(x+1) ) argument (shifts to the left) and mirroring/reflecting that shifted function at the y-axis ( f(-(x+1)) ).  
 
 
 # Pulse Shapes
