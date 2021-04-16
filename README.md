@@ -18,7 +18,14 @@ The function will be **inverted if we invert the argument** ("x" -> "-x").
 ## Convolution Formula
 
 The convolution of two functions is defined as ([see Wikipedia](https://en.wikipedia.org/wiki/Convolution)):  
-![Convolution Formula](Screenshot_2021-04-16 Convolution - Wikipedia.png)
+![Convolution Formula](Screenshot_2021-04-16_Convolution-Wikipedia.png)
+
+You might now wonder about what exactly is going on here.  
+First, take a look at the integration variable. It's tau: 
+![Convolution Formula, Integration Variable highlighted](Screenshot_2021-04-16_Convolution-Wikipedia_dtau.png)  
+
+Now, do you remember how a function gets mirrored at the y-axis? By inverting its argument. That's what happens with the -tau.  
+
 
 
 # Pulse Shapes
