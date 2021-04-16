@@ -1,5 +1,7 @@
 # ConvApp
-Matlab Convolution Demo App
+Matlab Convolution Demo App.  
+When looking at the code you might realize there's a similarity to the autocorrelation / cross correlation Demo App. :)  
+
 
 # Pulse Shapes
 
