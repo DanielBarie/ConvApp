@@ -6,7 +6,13 @@ Matlab Convolution Demo App
 ## Rectangular Pulse #1
 ![Rectangular Pulse #1](rectpulse_1.png)
 ```
-frect_1 = rectangularPulse(-1,1,x)
+frect_1 = rectangularPulse(-1,1,x);
+```
+
+## Triangular Pulse #1
+![Triangular Pulse #1](tripulse_1.png)
+```
+ftri_1 = triangularPulse(-1,0,1,x);
 ```
 
 ##  Triangular Pulse #3
