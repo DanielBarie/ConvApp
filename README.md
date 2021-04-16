@@ -3,6 +3,12 @@ Matlab Convolution Demo App
 
 # Pulse Shapes
 
+## Rectangular Pulse #1
+![Rectangular Pulse #1](rectpulse_1.png)
+```
+frect_1 = rectangularPulse(-1,1,x)
+```
+
 ##  Triangular Pulse #3
 ![Triangular Pulse #3](tripulse_3.png)
 
