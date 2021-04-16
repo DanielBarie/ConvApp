@@ -15,6 +15,12 @@ Another one to remember is how a function gets mirrored at the y-axis:
 
 The function will be **inverted if we invert the argument** ("x" -> "-x").
 
+## Convolution Formula
+
+The convolution of two functions is defined as ([see Wikipedia](https://en.wikipedia.org/wiki/Convolution)):  
+![Convolution Formula](Screenshot_2021-04-16 Convolution - Wikipedia.png)
+
+
 # Pulse Shapes
 
 ## Rectangular Pulse #1
