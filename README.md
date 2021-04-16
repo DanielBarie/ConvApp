@@ -29,7 +29,11 @@ We could re-write the formula as
 
 ![Re-Written Convolution Formula to highlight the process of mirroring at the y-axis](convolution_rewritten.png).
 
-Another point that (hopefully) makes you curious: Why are there two variables, t and tau? That's because for the purpose of doing the calculation, we did introduce tau as a kind of *dummy* variable. We'd like to obtain a result (of the convolution) along our time axis ( ![Convolution of f and g](faltung_f_g.png) ). So we need another variable to do the intergration (tau). 
+Another point that (hopefully) makes you curious: Why are there two variables, t and tau? That's because for the purpose of doing the calculation, we did introduce tau as a kind of *dummy* variable. We'd like to obtain a result (of the convolution) along our time axis. Another way of putting this is asking the question "What's the value of the convolution function at a given time?"   
+![Convolution of f and g](faltung_f_g.png)  
+So we need another variable to do the intergration (tau). 
+
+Do you remember the effect of subtracting from the argument of a function? It will result in a 
 
 # Pulse Shapes
 
