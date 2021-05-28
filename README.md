@@ -55,6 +55,13 @@ Direct your attention to the legend of the subplots... I placed some brackets in
 frect_1 = rectangularPulse(-1,1,x);
 ```
 
+## Rectangular Pulse #2
+![Rectangular Pulse #2](rectpulse_2.png)
+```
+frect_2 = 0.5 * rectangularPulse(-1,1,x);
+```
+
+
 ## Triangular Pulse #1
 ![Triangular Pulse #1](tripulse_1.png)
 ```
