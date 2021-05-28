@@ -56,11 +56,18 @@ frect_1 = rectangularPulse(-1,1,x);
 ```
 
 ## Rectangular Pulse #2
+Half Amplitude (0.5) Rectangular Pulse. Watch the convolution's amplitude value and compare it to a convolution of two pulses having the same amplitude. 
 ![Rectangular Pulse #2](rectpulse_2.png)
 ```
 frect_2 = 0.5 * rectangularPulse(-1,1,x);
 ```
 
+## Rectangular Pulse #3
+Unsymmetrical Pulse (right-hand sided). Watch it being reflected. What happens to the width of the convolution's result? Why?
+![Rectangular Pulse #3](rectpulse_3.png)
+```
+frect_3 = rectangularPulse(0,1,x);
+```
 
 ## Triangular Pulse #1
 ![Triangular Pulse #1](tripulse_1.png)
