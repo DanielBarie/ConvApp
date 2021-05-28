@@ -63,10 +63,17 @@ frect_2 = 0.5 * rectangularPulse(-1,1,x);
 ```
 
 ## Rectangular Pulse #3
-Unsymmetrical Pulse (right-hand sided). Watch it being reflected. What happens to the width of the convolution's result? Why?
+Unsymmetrical Pulse (right-hand sided, width 1). Watch it being reflected. What happens to the width of the convolution's result? Why? Why does it look the way (trapezoid) it does?
 ![Rectangular Pulse #3](rectpulse_3.png)
 ```
 frect_3 = rectangularPulse(0,1,x);
+```
+
+## Rectangular Pulse #4
+Unsymmetrical Pulse (right-hand sided, width 2). Watch it being reflected. What happens to the width of the convolution's result? Why? Why does it have a triangular shape?
+![Rectangular Pulse #4](rectpulse_4.png)
+```
+frect_4 = rectangularPulse(0,2,x);
 ```
 
 ## Triangular Pulse #1
