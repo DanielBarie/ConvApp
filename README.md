@@ -2,6 +2,8 @@
 Matlab Convolution Demo App.  
 When looking at the code you might realize there's a similarity to the autocorrelation / cross correlation demo app. :)  Please be aware that you need Matlab and its Symbolic Math Toolbox (mainly for historic reasons, one could do without. I just didn't have the time to re-factor...).
 
+Finally got around to uploading the app...
+
 ![Convolution Demo App Main Screen](app_screen.png)
 
 You may move one of the functions (mirrored g(t)) by dragging the slider. 
